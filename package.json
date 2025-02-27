@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Jay Ying's Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiexyinggggg/personal-website.git"
+  },
+  "author": "Yip Jay Ying",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiexyinggggg/personal-website/issues"
+  },
+  "homepage": "https://github.com/jiexyinggggg/personal-website#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
+  }
+}
